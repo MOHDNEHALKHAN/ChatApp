@@ -5,7 +5,69 @@ body{
 }
 .hero-section{
     height: 1080px;
-    flex-shrink: 0;
     background-color: #F5F88E;
     box-sizing:border-box;
+}
+.nav-section{
+    display: flex;
+}
+.Comp-name{
+    width: 111px;
+    height: 30px;
+    margin : 64px 0 0 130px;
+    color: #000;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;  
+}
+span{
+    color: #000;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.navbar-buttons{
+    margin : 64px 0 0 800px; 
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 30px;
+    align-items: center;
+
+}
+.btn{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+}
+#btn1{
+    width: 100px;
+height: 39px;
+
+    border-radius: 34px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+h1{
+    width: 501px;
+    height: 176px;
+    margin: 175px 0 0 145px;
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 91.667% */ 
 }

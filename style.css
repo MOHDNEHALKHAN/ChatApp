@@ -54,39 +54,37 @@ line-height: normal;
     border: 1px solid #000;
     background: #FFF;
     color: #000;
-   font-family: Inter;
-   font-size: 14px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 #btn2{
-  color: #000;
 text-align: center;
 font-family: Inter;
 font-size: 17px;
 font-style: normal;
 font-weight: 400;
-line-height: 88px; /* 517.647% */
-  width: 181px;
+width: 181px;
 height: 61px;
+border: none;
 border-radius: 30px;
 background: #5FCCA0;
 }
 
 #btn3{
   color: #000;
-text-align: center;
-font-family: Inter;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 88px; /* 517.647% */
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
   width: 181px;
-height: 61px;
-border-radius: 30px;
-border: 2px solid #000;
-background: #FFF;
+  height: 61px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  background: #FFF;
 }
 
 .heading {
@@ -114,6 +112,11 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 88px; /* 440% */
+}
+
+.hero-button{
+ display: flex;
+ gap: 30px;
 }
 
 #mid-head{

@@ -60,6 +60,34 @@ line-height: normal;
    font-weight: 500;
    line-height: normal;
 }
+#btn2{
+  color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 88px; /* 517.647% */
+  width: 181px;
+height: 61px;
+border-radius: 30px;
+background: #5FCCA0;
+}
+
+#btn3{
+  color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 88px; /* 517.647% */
+  width: 181px;
+height: 61px;
+border-radius: 30px;
+border: 2px solid #000;
+background: #FFF;
+}
 
 .heading {
   display: flex;

@@ -160,6 +160,20 @@ font-style: normal;
 font-weight: 400;
 line-height: 38px; /* 211.111% */
   }
-.background-img{
+
+.Des-image{
+  display: flexbox;
+    flex-direction: row;
+}
+.background-img1{
   position: absolute;
+  left: 10px;
 } 
+.background-img2{
+  position: absolute;
+  right: 10px;
+} 
+.foreward-img{
+  position: relative;
+ left: 235px;
+}

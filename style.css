@@ -135,3 +135,31 @@ line-height: 88px; /* 440% */
     height: 621px;
     width: auto;
   }
+  .Des-section{
+    height: 1900px;
+    background-color: #FFF;
+  }
+  .Des-head{
+    color: #000;
+    font-family: Mulish;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 130px;
+  }
+  #Des-para{
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; /* 211.111% */
+  }
+.background-img{
+  position: absolute;
+} 

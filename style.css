@@ -73,6 +73,10 @@ border-radius: 30px;
 background: #5FCCA0;
 }
 
+#btn2:hover{
+  background-color: rgb(179, 112, 32);
+}
+
 #btn3{
   color: #000;
   text-align: center;
@@ -146,7 +150,7 @@ line-height: 88px; /* 440% */
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    padding-top: 130px;
+    padding-top: 120px;
   }
   #Des-para{
     text-align: center;
@@ -162,18 +166,21 @@ line-height: 38px; /* 211.111% */
   }
 
 .Des-image{
-  display: flexbox;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
 }
 .background-img1{
   position: absolute;
-  left: 10px;
+  left: 225px;
 } 
 .background-img2{
   position: absolute;
-  right: 10px;
+  right: 190px;
+  top: 1780px;
 } 
 .foreward-img{
   position: relative;
  left: 235px;
+ top :25px
 }

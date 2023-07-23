@@ -258,3 +258,27 @@ line-height: normal;
   height: 27px;
   width: 175px;
 }
+.footer-section{
+  height: 419px;
+  background: #FFF;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+h6{
+  color: #5FCCA0;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.foot-span{
+  color: #5FCCA0;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

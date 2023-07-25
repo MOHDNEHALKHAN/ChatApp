@@ -259,7 +259,7 @@ line-height: normal;
   width: 175px;
 }
 .footer-section{
-  height: 419px;
+  height: 350px;
   background: #FFF;
  display: flex;
  flex-direction: row;
@@ -291,6 +291,23 @@ line-height: normal;
 {
   display: flex;
   flex-direction: row;
-  margin-right: 50px;
+  margin-right: 100px;
   gap: 80px;
+}
+.links{
+  color: #000;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nolinks{
+  width: 195px;
+  color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }

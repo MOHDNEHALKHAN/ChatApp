@@ -282,3 +282,15 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.foot-head1
+{
+  margin-left: 120px;
+}
+
+.foot-head2
+{
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  gap: 80px;
+}

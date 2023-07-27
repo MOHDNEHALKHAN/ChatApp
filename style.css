@@ -74,7 +74,7 @@ background: #5FCCA0;
 }
 
 #btn2:hover{
-  background-color: rgb(179, 112, 32);
+  box-shadow: 6px 8px 4px 0px rgba(0, 0, 0, 0.48);
 }
 
 #btn3{
@@ -89,6 +89,11 @@ background: #5FCCA0;
   border-radius: 30px;
   border: 2px solid #000;
   background: #FFF;
+}
+#btn3:hover{
+  background-color: #5FCCA0;
+  color: #FFFFFF;
+  border:  0;
 }
 
 .heading {

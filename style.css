@@ -60,6 +60,19 @@ line-height: normal;
     font-weight: 500;
     line-height: normal;
 }
+
+a:hover{
+  position: relative;
+  bottom: 7px;
+  color: #5FCCA0;
+  font-size: 16px;
+}
+
+#btn1:hover {
+  border: 0;
+  background-color: #5FCCA0;
+  color: #FFFFFF;
+}
 #btn2{
 text-align: center;
 font-family: Inter;
@@ -74,7 +87,9 @@ background: #5FCCA0;
 }
 
 #btn2:hover{
-  box-shadow: 6px 8px 4px 0px rgba(0, 0, 0, 0.48);
+  border: 2px solid #000;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 
 #btn3{

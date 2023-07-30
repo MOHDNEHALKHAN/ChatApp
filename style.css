@@ -365,4 +365,10 @@ p{
     height: 550px;
     width: 450px;
   }
+  #img{
+    height: 450px;
+    margin-top: 160px;
+    margin-left: -81px;
+    width: auto;
+  }
 }

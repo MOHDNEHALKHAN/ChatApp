@@ -184,11 +184,11 @@ line-height: 88px; /* 440% */
     line-height: 38px; /* 211.111% */
   }
 
-.Des-image{
+/* .Des-image{
   display: flex;
   flex-direction: row;
   margin-top: 60px;
-}
+} */
 
 .CTA-section{
   width: auto;

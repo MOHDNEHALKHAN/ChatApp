@@ -342,12 +342,15 @@ line-height: normal;
     width: 450px;
   }
 }
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1300px){
 h1{
   font-size: 80px;
 }
-p{
+.p{
   font-size: 17px;
+}
+#Des-para{
+  font-size: 15px;
 }
 .Comp-name{
   margin-left: 60px;
@@ -370,5 +373,8 @@ p{
     margin-top: 160px;
     margin-left: -81px;
     width: auto;
+  }
+  .Des-head{
+    font-size: 40px;
   }
 }

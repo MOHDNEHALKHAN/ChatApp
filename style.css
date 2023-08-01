@@ -377,4 +377,20 @@ h1{
     height: 650px;
       width: auto;
   }
+  .CTA-section{
+    height: 800px;
+  }
+  .img-CTA{
+    height: 450px;
+    width: auto;
+    margin-top: 180px;
+  }
+  #CTA-head{
+    margin-top: 200px;
+    margin-right: 50px;
+  }
+  .star-img{
+    width: 150px;
+    height: 24px;
+  }
 }

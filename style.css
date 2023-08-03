@@ -193,7 +193,7 @@ line-height: 88px; /* 440% */
 
 .CTA-section{
   width: auto;
-height: 856px;
+height: 750px;
 background:#F5F88E;
 }
 .CTA-image{
@@ -201,7 +201,9 @@ background:#F5F88E;
   flex-direction: column;
 }
 .img-CTA{
-  margin-top: 200px;
+  margin-top: 150px;
+  height: 480px;
+  width: auto;
 }
 .bg-img1{
   position: relative;
@@ -236,7 +238,7 @@ font-size: 54px;
 font-style: normal;
 font-weight: 400;
 line-height: 73px; /* 135.185% */
-margin-top: 250px;
+margin-top: 180px;
 margin-right: 100px;
 margin-bottom: 0px;
 }

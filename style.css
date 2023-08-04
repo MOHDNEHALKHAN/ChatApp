@@ -1,5 +1,6 @@
 body{
     display: block;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -324,17 +325,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-@media queries and (min-width: 900px){
 
-  .heading{
-    height: 400px;
-    width: 450px;
-  }
-  .hero-image{
-    height: 550px;
-    width: 450px;
-  }
-}
 @media screen and (max-width: 1300px){
 h1{
   font-size: 80px;
@@ -395,4 +386,21 @@ h1{
     width: 150px;
     height: 24px;
   }
+  .footer-section{
+    height: 310px;
+  }
+  .foot-head2{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: auto;
+    gap: 60px;
+    margin-right: 180px;
+  }
+  .foot-head1 {
+    margin-left: 60px;
+}
+.nolinks{
+  margin: 0;
+}
 }

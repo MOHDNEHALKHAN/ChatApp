@@ -395,6 +395,9 @@ h1{
     font-size: 45px;
     margin-right: 25px;
   }
+  .CTA-button{
+    margin-top: 60px;
+   }
   #CTA-para{
     font-size: 17px;
   }
@@ -427,6 +430,9 @@ h1{
 @media screen and (max-width: 1100px){
   h1{
     font-size: 70px;
+  }
+  h6{
+    font-size: 24px;
   }
   .hero-para{
     font-size: 17px;
@@ -478,11 +484,13 @@ h1{
     .img-CTA{
       height: 350px;
       width: auto;
-      margin-top: 180px;
+      margin-top: 150px;
     }
-   
+   .CTA-button{
+    margin-top: 50px;
+   }
     #CTA-head{
-      margin-top: 200px;
+      margin-top: 150px;
       font-size: 40px;
      margin-right: 20px;
       

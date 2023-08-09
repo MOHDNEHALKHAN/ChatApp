@@ -521,3 +521,105 @@ h1{
     font-size: 18px;
   }
 }
+@media screen and (max-width: 1050px){
+  h1{
+    font-size: 40px;
+    letter-spacing: 6px;
+    width: 360px;
+    line-height: 65px;
+    margin-bottom: 0px;
+  }
+  h6{
+    font-size: 20px;
+  }
+  .hero-para{
+    font-size: 15px;
+    line-height: 0px;
+  }
+  .hero-button{
+    margin-top: 50px;
+  }
+  .p{
+    font-size: 15px;
+  }
+  #Des-para{
+    font-size: 14px;
+  }
+  .Comp-name{
+    margin-left: 50px;
+  }
+  .btn , #btn1{
+    font-size: 13px;
+  }
+  #btn2,#btn3{
+    height: 40px;
+    width: 130px;
+    font-size: 16px;
+  }
+    .heading{
+      height: auto;
+      width: auto;
+      margin-left : 50px;
+    }
+  
+    #img{
+      height: 350px;
+      margin-top: 150px;
+      margin-left: -81px;
+      width: auto;
+    }
+    .Des-head{
+      font-size: 40px;
+      padding-top: 70px;
+    }
+  .Des-section{
+    height: 1100px;
+  }
+  
+    #img-Des{
+      height: 550px;
+        width: auto;
+    }
+    .CTA-section{
+      height: 650px;
+    }
+    .img-CTA{
+      height: 350px;
+      width: auto;
+      margin-top: 150px;
+    }
+   .CTA-button{
+    margin-top: 50px;
+   }
+    #CTA-head{
+      margin-top: 150px;
+      font-size: 40px;
+     margin-right: 20px;
+      
+    }
+    .star-img{
+      width: 150px;
+      height: 24px;
+    }
+    .footer-section{
+      height: 310px;
+    }
+    .foot-head2{
+      display: flex;
+      flex-direction: row;
+      width: 550px;
+      height: auto;
+      gap: 60px;
+      margin-right: 100px;
+    }
+    .foot-head1 {
+      margin-left: 60px;
+  }
+  .nolinks{
+    margin: 0;
+    font-size: 18px; 
+  }
+  #licence-para{
+    font-size: 18px;
+  }
+}

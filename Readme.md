@@ -1,5 +1,5 @@
 ## About Project :film_projector:
-ChatApp is a landing page website that will be working on big screens such as desktops and laptops because of insufficient responsiveness.
+ChatApp is a landing page website 
 ## Stack Use in this Project :building_construction:
 HTML, CSS, JAVASCRIPT
 ## Design Tool Used :art:

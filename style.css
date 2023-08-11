@@ -393,7 +393,7 @@ h1{
   #CTA-head{
     margin-top: 200px;
     font-size: 45px;
-    margin-right: 25px;
+    margin-right: 0px;
   }
   .CTA-button{
     margin-top: 60px;
@@ -489,7 +489,11 @@ h1{
    .CTA-button{
     margin-top: 50px;
    }
+   #CTA-para{
+    font-size: 16px;
+  }
     #CTA-head{
+      width: 480px;
       margin-top: 150px;
       font-size: 40px;
      margin-right: 20px;
@@ -599,16 +603,25 @@ h1{
    .CTA-button{
     margin-top: 50px;
    }
+   #CTA-para{
+    font-size: 15px;
+  }
     #CTA-head{
+      width: 330px;
+      height: 150px;
       margin-top: 150px;
-      font-size: 40px;
-     margin-right: 20px;
-      
+      font-size: 34px;
+      margin-right: 20px;
+      line-height: 40px;
     }
     .star-img{
-      width: 150px;
-      height: 24px;
+      width: 135px;
+      height: 25px;
     }
+    #para-rating{
+      font-size: 17px;
+    }
+    
     .footer-section{
       height: 310px;
     }

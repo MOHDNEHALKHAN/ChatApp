@@ -4,6 +4,13 @@ body{
     margin: 0;
     padding: 0;
 }
+
+body.active {
+  overflow: hidden; 
+  position: fixed; 
+  width: 100%;
+}
+
 .hero-section{
     height: 750px;
     background-color: #F5F88E;

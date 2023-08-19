@@ -83,6 +83,10 @@ margin: 2px 0;
     line-height: normal;
 }
 
+.close-btn{
+  display: none;
+}
+
 a:hover{
   position: relative;
   bottom: 7px;
@@ -699,6 +703,10 @@ h1{
 
   .hamburger {
     display: flex;
+  }
+  
+  .close-btn{
+    display: block;
   }
 
   h1{

@@ -68,6 +68,9 @@ margin: 2px 0;
     font-style: normal;
     font-weight: 500;
     line-height: normal;  
+    border: 0;
+    padding: 0;
+    background-color: transparent;
 }
 #btn1{
     width: 100px;

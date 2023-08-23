@@ -11,5 +11,4 @@ hamburger.addEventListener('click', () => {
 close.addEventListener('click', () => {
   navButtons.classList.remove("active");
   body.classList.remove("active");
-  // hamburger.classList.remove("active");
 });

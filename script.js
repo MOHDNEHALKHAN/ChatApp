@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
-const navButtons = document.querySelector('.navbar-buttons');
+const navButtons = document.querySelector('.ham-nav');
 const close = document.querySelector('.close-btn');
 const body = document.body;
 

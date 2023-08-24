@@ -688,23 +688,30 @@ h1{
 
 @media screen and (max-width: 760px)
 {
-  .navbar-buttons {
+  .ham-nav{
     display: none;
-    flex-direction: column;
+    box-sizing: border-box;
+    flex-direction: row;
     position: absolute;
-    top: 0px;
-    margin-top: 0px;
     height: 100%;
     width: 100%;
     background-color: #5FCCA0;
     align-items: flex-start;
     padding: 40px;
-    gap: 40px;
-    margin-right: 40px;
-    font-weight: 700;
+    justify-content: space-between;
   }
 
-  .navbar-buttons.active {
+  .navbar-buttons {
+    display: flex;
+   flex-direction: column;
+   gap: 40px;
+   font-weight: 600;
+   margin-top: 0;
+   margin-right: 0px;
+   align-items: flex-start;
+  } 
+  
+  .ham-nav.active {
     display: flex;
   }
 

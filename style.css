@@ -748,7 +748,7 @@ h6 {
     height: 1050px;
   }
   .hero-para {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 0px;
   }
   .hero-button {
@@ -793,6 +793,10 @@ h6 {
     margin: 30px 0px 0px 50px;
   }
 
+  .heading2{
+   margin-left: 60px;
+  }
+
   #img {
     height: 500px;
     width: auto;
@@ -806,8 +810,8 @@ h6 {
     height: 1000px;
   }
   #Des-para {
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 25px;
     letter-spacing: 1px;
   }
 
@@ -823,34 +827,35 @@ h6 {
   }
 
   .CTA-section {
-    height: 1000px;
+    height: 950px;
   }
 
   .img-CTA {
-    height: 300px;
+    height: 400px;
     width: auto;
-    margin-top: 150px;
+    margin-top: 60px;
   }
   .CTA-button {
     margin-top: 50px;
   }
   #CTA-para {
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
   }
   #CTA-head {
-    width: 330px;
+    width: 400px;
     height: 150px;
-    margin-top: 100px;
-    font-size: 34px;
-    margin-right: 20px;
-    line-height: 40px;
+    margin-top: 60px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
   }
   .star-img {
-    width: 135px;
-    height: 25px;
+    width: 150px;
+    height: 24px;
   }
   #para-rating {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .footer-section {

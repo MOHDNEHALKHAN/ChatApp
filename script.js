@@ -2,7 +2,7 @@ const hamburger = document.querySelector(".hamburger");
 const navButtons = document.querySelector(".ham-nav");
 const close = document.querySelector(".close-btn");
 const body = document.body;
-const scroll = document.querySelector(".Scrolls");
+const scroll = document.querySelector(".Comp-name2");
 
 hamburger.addEventListener("click", () => {
   navButtons.classList.toggle("active");

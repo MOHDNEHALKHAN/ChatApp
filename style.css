@@ -301,11 +301,12 @@ h1 {
   width: 175px;
 }
 .footer-section {
-  height: 350px;
   background: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin-left: 60px;
+  gap: 80px;
+
 }
 h6 {
   color: #5fcca0;
@@ -318,6 +319,7 @@ h6 {
 
 .Comp-name2{
   font-size: 26px;
+  margin-bottom: 20px;
 }
 .foot-span {
   color: #5fcca0;
@@ -327,16 +329,7 @@ h6 {
   font-weight: 400;
   line-height: normal;
 }
-.foot-head1 {
-  margin-left: 120px;
-}
 
-.foot-head2 {
-  display: flex;
-  flex-direction: row;
-  margin-right: 100px;
-  gap: 80px;
-}
 .links {
   color: #000;
   font-family: Inter;
@@ -431,19 +424,12 @@ h6 {
     height: 24px;
   }
   .footer-section {
-    height: 310px;
-  }
-  .foot-head2 {
     display: flex;
     flex-direction: row;
-    width: 550px;
     height: auto;
     gap: 60px;
-    margin-right: 180px;
   }
-  .foot-head1 {
-    margin-left: 60px;
-  }
+    
   .nolinks {
     margin: 0;
     font-size: 19px;
@@ -536,19 +522,13 @@ h6 {
     height: 24px;
   }
   .footer-section {
-    height: 310px;
-  }
-  .foot-head2 {
     display: flex;
     flex-direction: row;
-    width: 550px;
     height: auto;
     gap: 60px;
-    margin-right: 100px;
-  }
-  .foot-head1 {
     margin-left: 60px;
   }
+ 
   .nolinks {
     margin: 0;
     font-size: 18px;
@@ -670,19 +650,13 @@ h6 {
   }
 
   .footer-section {
-    height: 310px;
-  }
-  .foot-head2 {
     display: flex;
     flex-direction: row;
-    width: 550px;
     height: auto;
     gap: 25px;
-    margin: 0px;
-  }
-  .foot-head1 {
     margin-left: 50px;
   }
+  
   .nolinks {
     margin: 0;
     font-size: 18px;
@@ -863,23 +837,17 @@ h6 {
   }
 
   .footer-section {
-    height: 310px;
-  }
-  .foot-head2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 550px;
     height: auto;
     gap: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
   }
-  .foot-head1 {
-    margin-left: 60px;
-  }
+  
   .nolinks {
     margin: 0;
-    font-size: 18px;
+    font-size: 17px;
   }
   #licence-para {
     font-size: 17px;

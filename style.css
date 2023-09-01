@@ -23,7 +23,7 @@ body.active {
 .Comp-name {
   width: 111px;
   height: 30px;
-  margin: 64px 0 0 120px;
+  margin: 64px 0 0 60px;
   color: #000;
   font-family: Inter;
   font-size: 26px;
@@ -142,7 +142,7 @@ a:hover {
 .heading {
   display: flex;
   flex-direction: column;
-  margin: 100px 0 0 120px;
+  margin: 100px 0 0 60px;
 }
 
 h1 {
@@ -707,7 +707,7 @@ h6 {
     justify-content: space-between;
   }
   h1 {
-    width: 501px;
+    width: 400px;
     height: 176px;
     margin-bottom: 40px;
     color: #000;
@@ -827,6 +827,197 @@ h6 {
     font-size: 40px;
     line-height: 50px;
     letter-spacing: 2px;
+  }
+  .star-img {
+    width: 150px;
+    height: 24px;
+  }
+  #para-rating {
+    font-size: 16px;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    gap: 30px;
+    margin-left: 50px;
+  }
+  
+  .nolinks {
+    margin: 0;
+    font-size: 17px;
+  }
+  #licence-para {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .ham-nav {
+    display: none;
+    box-sizing: border-box;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #5fcca0;
+    align-items: flex-start;
+    padding: 40px;
+    justify-content: space-between;
+  }
+
+  .navbar-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-right: 0px;
+    align-items: flex-start;
+  }
+
+  .ham-nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+    margin-right: 30px;
+  }
+
+  .close-btn {
+    display: block;
+  }
+  #mid-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h1 {
+    width: 330px;
+    height: 170px;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: "Mulish", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  .hero-section {
+    height: 950px;
+  }
+  .hero-para {
+    font-size: 15px;
+    line-height: 0px;
+  }
+  .hero-button {
+    margin-top: 30px;
+  }
+  .p {
+    font-size: 15px;
+  }
+
+  .Comp-name {
+    margin-left: 30px;
+  }
+
+  .btn,
+  #btn1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #btn1 {
+    height: 16px;
+    text-align: left;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    color: #000;
+    padding: 0;
+  }
+  #btn1:hover {
+    color: #000000;
+  }
+  #btn2,
+  #btn3 {
+    height: 60px;
+    width: 140px;
+    font-size: 17px;
+  }
+  .heading {
+    height: auto;
+    width: auto;
+    margin: 30px 0px 0px 30px;
+  }
+
+  .heading2 {
+    margin-left: 60px;
+  }
+
+  #img {
+    height: 350px;
+    width: auto;
+    margin: 50px 60px 0px 60px;
+  }
+
+  #Des-para {
+    font-size: 14px;
+  }
+
+  .Des-head {
+    font-size: 35px;
+    padding-top: 35px;
+  }
+  .Des-section {
+    height: 850px;
+  }
+  #Des-para {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 0px 60px 0px 60px;
+  }
+
+  #img-Des {
+    height: 300px;
+    width: auto;
+  }
+
+  #mid-head2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .CTA-section {
+    height: 830px;
+  }
+
+  .img-CTA {
+    height: 300px;
+    width: auto;
+    margin-top: 60px;
+  }
+  .CTA-button {
+    margin-top: 50px;
+  }
+  #CTA-para {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  #CTA-head {
+    width: 400px;
+    height: 130px;
+    margin-top: 60px;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 1px;
   }
   .star-img {
     width: 150px;

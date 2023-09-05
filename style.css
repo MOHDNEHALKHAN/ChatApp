@@ -50,7 +50,7 @@ span {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-top: 60px;
 }
 .bar {
@@ -777,7 +777,7 @@ h6 {
   #img {
     height: 450px;
     width: auto;
-    margin: 40px 0px 0px 50px;
+    margin: 40px 0px 0px 60px;
   }
   .Des-head {
     font-size: 35px;
@@ -971,21 +971,21 @@ h6 {
   }
 
   .Des-head {
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 35px;
   }
   .Des-section {
-    height: 850px;
+    height: 700px;
   }
   #Des-para {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 21px;
     letter-spacing: 1px;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 50px 0px 50px;
   }
 
   #img-Des {
-    height: 300px;
+    height: 220px;
     width: auto;
   }
 
@@ -1012,10 +1012,10 @@ h6 {
     letter-spacing: 1px;
   }
   #CTA-head {
-    width: 400px;
-    height: 130px;
-    margin-top: 60px;
-    font-size: 35px;
+    width: 300px;
+    height: 115px;
+    margin-top: 50px;
+    font-size: 30px;
     line-height: 50px;
     letter-spacing: 1px;
   }

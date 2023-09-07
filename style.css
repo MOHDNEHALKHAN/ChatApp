@@ -304,9 +304,9 @@ h1 {
   background: #fff;
   display: flex;
   flex-direction: row;
-  margin-left: 60px;
-  gap: 80px;
-
+  margin: 0px 30px 0px 60px;
+  gap: 70px;
+  height: 300px;
 }
 h6 {
   color: #5fcca0;
@@ -328,6 +328,9 @@ h6 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.foot-head1{
+  margin-right: 300px;
 }
 
 .links {
@@ -426,9 +429,13 @@ h6 {
   .footer-section {
     display: flex;
     flex-direction: row;
-    height: auto;
+    margin-right: 30px;
     gap: 60px;
   }
+  
+.foot-head1 {
+    margin-right: 150px;
+}
     
   .nolinks {
     margin: 0;
@@ -523,11 +530,16 @@ h6 {
   }
   .footer-section {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    height: auto;
-    gap: 60px;
-    margin-left: 60px;
+    gap: 30px;
+    margin : 0px 0px 0px 60px;
   }
+
+  
+.foot-head1 {
+    margin-right: 100px;
+}
  
   .nolinks {
     margin: 0;
@@ -593,7 +605,7 @@ h6 {
   }
   .heading2 {
     width: 320px;
-    margin: 0px;
+    margin: 0px 20px;
   }
 
   #img {
@@ -652,7 +664,7 @@ h6 {
   .footer-section {
     display: flex;
     flex-direction: row;
-    height: auto;
+    /* height: auto; */
     gap: 25px;
     margin-left: 50px;
   }
@@ -840,7 +852,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: auto;
+    /* height: auto; */
     gap: 30px;
     margin-left: 50px;
   }
@@ -1031,7 +1043,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: auto;
+    /* height: auto; */
     gap: 30px;
     margin-left: 50px;
   }

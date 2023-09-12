@@ -87,6 +87,10 @@ span {
 
 .close-btn {
   display: none;
+  height: 40px;
+  width: auto;
+  background-color: white;
+  border-radius: 5px;
 }
 
 a:hover {
@@ -697,7 +701,7 @@ h6 {
     flex-direction: column;
     gap: 40px;
     font-weight: 600;
-    margin-top: 0;
+    margin-top: 10px;
     margin-right: 0px;
     align-items: flex-start;
   }
@@ -884,7 +888,7 @@ h6 {
     flex-direction: column;
     gap: 40px;
     font-weight: 600;
-    margin-top: 0;
+    margin-top: 20px;
     margin-right: 0px;
     align-items: flex-start;
   }

@@ -321,7 +321,7 @@ h6 {
   line-height: normal;
 }
 
-.Comp-name2{
+.Comp-name2 {
   font-size: 26px;
   margin-bottom: 20px;
 }
@@ -333,7 +333,7 @@ h6 {
   font-weight: 400;
   line-height: normal;
 }
-.foot-head1{
+.foot-head1 {
   margin-right: 300px;
 }
 
@@ -436,11 +436,11 @@ h6 {
     margin-right: 30px;
     gap: 60px;
   }
-  
-.foot-head1 {
+
+  .foot-head1 {
     margin-right: 150px;
-}
-    
+  }
+
   .nolinks {
     margin: 0;
     font-size: 19px;
@@ -537,14 +537,13 @@ h6 {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
-    margin : 0px 0px 0px 60px;
+    margin: 0px 0px 0px 60px;
   }
 
-  
-.foot-head1 {
+  .foot-head1 {
     margin-right: 100px;
-}
- 
+  }
+
   .nolinks {
     margin: 0;
     font-size: 18px;
@@ -672,7 +671,7 @@ h6 {
     gap: 25px;
     margin-left: 50px;
   }
-  
+
   .nolinks {
     margin: 0;
     font-size: 18px;
@@ -860,7 +859,7 @@ h6 {
     gap: 30px;
     margin-left: 50px;
   }
-  
+
   .nolinks {
     margin: 0;
     font-size: 17px;
@@ -1052,7 +1051,217 @@ h6 {
     margin-left: 50px;
     height: auto;
   }
-  
+
+  .nolinks {
+    margin: 0;
+    font-size: 17px;
+  }
+  #licence-para {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ham-nav {
+    display: none;
+    box-sizing: border-box;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #5fcca0;
+    align-items: flex-start;
+    padding: 40px;
+    justify-content: space-between;
+  }
+
+  .navbar-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 0px;
+    align-items: flex-start;
+  }
+
+  .ham-nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+    margin: 45px 30px 0px 0px;
+  }
+
+  .close-btn {
+    display: block;
+  }
+  #mid-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h1 {
+    width: 250px;
+    height: 170px;
+    margin-bottom: 0px;
+    color: #000;
+    font-family: "Mulish", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+  }
+  h6 {
+    font-size: 20px;
+    margin: 30px 0px 20px;
+  }
+  .hero-section {
+    height: 900px;
+  }
+  .hero-para {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    width: 220px;
+    font-weight: 500;
+  }
+  .hero-button {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .p {
+    font-size: 15px;
+  }
+
+  .Comp-name {
+    margin: 45px 0px 0px 30px;
+  }
+
+  .btn,
+  #btn1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #btn1 {
+    height: 16px;
+    text-align: left;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    color: #000;
+    padding: 0;
+  }
+  #btn1:hover {
+    color: #000000;
+  }
+  #btn2,
+  #btn3 {
+    height: 60px;
+    width: 240px;
+    font-size: 17px;
+    font-weight: 450;
+  }
+  .heading {
+    height: auto;
+    width: auto;
+    margin: 30px 0px 0px 30px;
+  }
+
+  .heading2 {
+    margin-left: 20px;
+    width: auto;
+  }
+
+  #img {
+    height: 250px;
+    width: auto;
+    margin: 50px 0px 0px 30px;
+  }
+
+  #Des-para {
+    font-size: 14px;
+  }
+
+  .Des-head {
+    font-size: 30px;
+    padding-top: 35px;
+  }
+  .Des-section {
+    height: 800px;
+  }
+  #Des-para {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    margin: 0px 50px 0px 50px;
+  }
+
+  #img-Des {
+    height: 200px;
+    width: auto;
+  }
+
+  #mid-head2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .CTA-section {
+    height: 800px;
+  }
+
+  .img-CTA {
+    height: 200px;
+    width: auto;
+    margin-top: 30px;
+  }
+  .CTA-button {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  #CTA-para {
+    font-size: 15px;
+    letter-spacing: 1px;
+    height: auto;
+    width: 220px;
+  }
+  #CTA-head {
+    width: auto;
+    height: 120px;
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 1px;
+  }
+
+  .CTA-rating {
+    flex-direction: column;
+  }
+  .star-img {
+    width: 150px;
+    height: 24px;
+  }
+  #para-rating {
+    font-size: 16px;
+  }
+
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0px;
+    margin-left: 30px;
+    height: auto;
+  }
+
+  .ft{
+  height: auto;
+  width:200px ;
+  }
+
   .nolinks {
     margin: 0;
     font-size: 17px;

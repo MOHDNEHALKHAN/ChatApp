@@ -25,7 +25,7 @@ body.active {
   height: 30px;
   margin: 64px 0 0 60px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -33,7 +33,7 @@ body.active {
 }
 span {
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -62,7 +62,7 @@ span {
 
 .btn {
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -78,7 +78,7 @@ span {
   border: 1px solid #000;
   background: #fff;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -107,7 +107,7 @@ a:hover {
 }
 #btn2 {
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -127,7 +127,7 @@ a:hover {
 #btn3 {
   color: #000;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -163,7 +163,7 @@ h1 {
 .hero-para {
   margin-top: 0px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -209,7 +209,7 @@ h1 {
   margin-right: 120px;
   color: #000;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -275,7 +275,7 @@ h1 {
   margin: 0;
   line-height: 15px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -314,7 +314,7 @@ h1 {
 }
 h6 {
   color: #5fcca0;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -327,7 +327,7 @@ h6 {
 }
 .foot-span {
   color: #5fcca0;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -339,7 +339,7 @@ h6 {
 
 .links {
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -348,7 +348,7 @@ h6 {
 .nolinks {
   width: 195px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -357,7 +357,7 @@ h6 {
 #licence-para {
   margin-top: 0px;
   color: #000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1136,7 +1136,7 @@ h6 {
   }
 
   .Comp-name {
-    margin: 45px 0px 0px 30px;
+    margin: 45px 0px 0px 40px;
   }
 
   .btn,
@@ -1166,7 +1166,7 @@ h6 {
   .heading {
     height: auto;
     width: auto;
-    margin: 30px 0px 0px 30px;
+    margin: 30px 0px 0px 40px;
   }
 
   .heading2 {
@@ -1189,7 +1189,7 @@ h6 {
     padding-top: 35px;
   }
   .Des-section {
-    height: 800px;
+    height: 850px;
   }
   #Des-para {
     font-size: 14px;

@@ -307,11 +307,15 @@ h1 {
 .footer-section {
   background: #fff;
   display: flex;
-  flex-direction: row;
-  margin: 0px 30px 0px 60px;
+  flex-direction: column;
+  margin: 0px 30px 100px 60px;
   gap: 70px;
   height: 300px;
 }
+p{
+  font-family: 'Inter', sans-serif;
+}
+
 h6 {
   color: #5fcca0;
   font-family: 'Inter', sans-serif;
@@ -335,6 +339,12 @@ h6 {
 }
 .foot-head1 {
   margin-right: 300px;
+}
+.foot1{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: space-around;
 }
 
 .links {
@@ -432,13 +442,13 @@ h6 {
   }
   .footer-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-right: 30px;
     gap: 60px;
   }
 
   .foot-head1 {
-    margin-right: 150px;
+    margin-right: 120px;
   }
 
   .nolinks {
@@ -534,15 +544,21 @@ h6 {
   }
   .footer-section {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-direction: column;
     gap: 30px;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 40px 60px;
   }
 
   .foot-head1 {
-    margin-right: 100px;
+    margin-right: 80px;
   }
+
+  .foot1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
   .nolinks {
     margin: 0;
@@ -666,7 +682,7 @@ h6 {
 
   .footer-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* height: auto; */
     gap: 25px;
     margin-left: 50px;
@@ -854,8 +870,8 @@ h6 {
   .footer-section {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    /* height: auto; */
+    flex-direction: column;
+    height: auto; 
     gap: 30px;
     margin-left: 50px;
   }

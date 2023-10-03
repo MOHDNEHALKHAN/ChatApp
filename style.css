@@ -1111,6 +1111,7 @@ h6 {
 
   .close-btn {
     display: block;
+    height: 30px;
   }
   #mid-head {
     display: flex;
@@ -1205,7 +1206,7 @@ h6 {
     padding-top: 35px;
   }
   .Des-section {
-    height: 850px;
+    height: 800px;
   }
   #Des-para {
     font-size: 14px;

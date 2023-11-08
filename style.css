@@ -119,8 +119,9 @@ a:hover {
 }
 
 #btn2:hover {
+  box-shadow: 10px 10px 0px #000;
   border: 2px solid #000;
-  background-color: #ffffff;
+  background-color: #5fcca0;
   color: #000000;
 }
 
@@ -138,9 +139,7 @@ a:hover {
   background: #fff;
 }
 #btn3:hover {
-  background-color: #5fcca0;
-  color: #ffffff;
-  border: 0;
+box-shadow: 10px 10px 0px #000;
 }
 
 .heading {
